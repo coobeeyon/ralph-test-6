@@ -9,7 +9,23 @@
       "priority": 1,
       "created_at": "2026-02-28T18:55:42.594664451Z",
       "updated_at": "2026-02-28T18:55:42.594664451Z"
+    },
+    "lb-mcj9": {
+      "id": "lb-mcj9",
+      "title": "Create hello.py with argparse CLI",
+      "description": "Python script that prints Hello World or Hello <name> using argparse",
+      "item_type": "task",
+      "status": "open",
+      "priority": 1,
+      "created_at": "2026-02-28T18:55:47.430822646Z",
+      "updated_at": "2026-02-28T18:55:47.430822646Z"
     }
   },
-  "deps": []
+  "deps": [
+    {
+      "from_id": "lb-mcj9",
+      "to_id": "lb-7836",
+      "dep_type": "parent"
+    }
+  ]
 }
